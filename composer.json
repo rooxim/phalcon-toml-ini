@@ -1,0 +1,18 @@
+{
+    "name": "rooxim/phalcon-toml-ini",
+    "description": "Phalcon\\Config\\Adapter\\Toml",
+    "type": "library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Yuto Uehara",
+            "email": "yuto.uehara@mail.rooxim.com"
+        }
+    ],
+    "require": {
+        "yosymfony/toml": "0.4.x-dev"
+    },
+    "require-dev": {
+        "phalcon/ide-stubs": "*"
+    }
+}
