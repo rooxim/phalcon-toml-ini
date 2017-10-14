@@ -14,5 +14,10 @@
     },
     "require-dev": {
         "phalcon/ide-stubs": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phalcon\\": "src/Phalcon"
+        }
     }
 }
