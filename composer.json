@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "yosymfony/toml": "0.4.x-dev"
+        "yosymfony/toml": "0.3.3"
     },
     "require-dev": {
         "phalcon/ide-stubs": "*"
