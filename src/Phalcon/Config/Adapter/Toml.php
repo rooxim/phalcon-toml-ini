@@ -9,6 +9,7 @@
 namespace Phalcon\Config\Adapter;
 
 use \Phalcon\Config;
+use Yosymfony\Toml\Toml as Parser;
 
 
 class Toml extends Config
@@ -16,7 +17,7 @@ class Toml extends Config
     public function __construct(string $filePath)
     {
 
-        parent::__construct(Toml::path($filePath));
+        parent::__construct(Parser::Parse($filePath));
     }
 
 
