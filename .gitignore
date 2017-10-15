@@ -111,3 +111,5 @@ Would skip repository vendor/yosymfony/toml
 vendor/autoload.php
 vendor/composer
 vendor/phalcon
+
+.idea
