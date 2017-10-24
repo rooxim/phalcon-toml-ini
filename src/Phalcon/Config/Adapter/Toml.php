@@ -17,7 +17,7 @@ class Toml extends Config
     public function __construct(string $filePath)
     {
 
-        parent::__construct(Parser::Parse($filePath));
+        parent::__construct(Parser::Parse($filePath)??[]);
     }
 
 
